@@ -4,7 +4,7 @@
 
 > 作者[Tomomi Imura](https://www.twitter.com/girlie_mac)
 
-## [课前测](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/9/)
+## [课前测](https://white-water-09ec41f0f.azurestaticapps.net/quiz/9/)
 ## 介绍
 
 在这四节课中，你将了解如何构建回归模型。我们将很快讨论这些是什么。但在你做任何事情之前，请确保你有合适的工具来开始这个过程！
@@ -30,7 +30,7 @@
 
    > 通过学习这一系列的 [学习模块](https://docs.microsoft.com/users/jenlooper-2911/collections/mp1pagggd5qrq7?WT.mc_id=academic-15963-cxa)熟悉Python
 
-3. **按照[这些说明]安装Scikit learn**(https://scikit-learn.org/stable/install.html)。由于你需要确保使用Python3，因此建议你使用虚拟环境。注意，如果你是在M1 Mac上安装这个库，在上面链接的页面上有特别的说明。
+3. **按照[这些说明]安装Scikit learn**(https://scikit-learn.org/stable/install.html )。由于你需要确保使用Python3，因此建议你使用虚拟环境。注意，如果你是在M1 Mac上安装这个库，在上面链接的页面上有特别的说明。
 
 4. **安装Jupyter Notebook**。你需要[安装Jupyter包](https://pypi.org/project/jupyter/)。
 
@@ -46,7 +46,7 @@ Notebooks是一个交互式环境，允许开发人员编写代码并添加注�
 
     Jupyter服务器将以python3+启动。你会发现notebook可以“运行”的区域、代码块。你可以通过选择看起来像播放按钮的图标来运行代码块。
 
-2. 选择`md`图标并添加一点markdown，输入文字**#Welcome to your notebook**。 
+2. 选择`md`图标并添加一点markdown，输入文字 **# Welcome to your notebook**。
 
    接下来，添加一些Python代码。
 
@@ -80,7 +80,7 @@ Scikit-learn使构建模型和评估它们的使用变得简单。它主要侧�
 
 > 本教程的灵感来自Scikit-learn网站上的[线性回归示例](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html#sphx-glr-auto-examples-linear-model-plot-ols-py)。
 
-在与本课程相关的_notebook.ipynb_文件中，通过点击“垃圾桶”图标清除所有单元格。 
+在与本课程相关的 _notebook.ipynb_ 文件中，通过点击“垃圾桶”图标清除所有单元格。 
 
 在本节中，你将使用一个关于糖尿病的小数据集，该数据集内置于Scikit-learn中以用于学习目的。想象一下，你想为糖尿病患者测试一种治疗方法。机器学习模型可能会帮助你根据变量组合确定哪些患者对治疗反应更好。即使是非常基本的回归模型，在可视化时，也可能会显示有助于组织理论临床试验的变量信息。 
 
@@ -192,7 +192,7 @@ s1 tc：T细胞（一种白细胞）
 ## 🚀挑战
 
 从这个数据集中绘制一个不同的变量。提示：编辑这一行：`X = X[:, np.newaxis, 2]`。鉴于此数据集的目标，你能够发现糖尿病作为一种疾病的进展情况吗？
-## [课后测](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/10/)
+## [课后测](https://white-water-09ec41f0f.azurestaticapps.net/quiz/10/)
 
 ## 复习与自学 
 

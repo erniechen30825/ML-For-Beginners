@@ -3,7 +3,7 @@
 > ![数据可视化信息图](../images/data-visualization.png)
 > 作者[Dasani Madipalli](https://twitter.com/dasani_decoded)
 
-## [课前测](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/11/)
+## [课前测](https://white-water-09ec41f0f.azurestaticapps.net/quiz/11/)
 
 ## 介绍
 
@@ -174,14 +174,14 @@
 
 为了让图表显示有用的数据，你通常需要以某种方式对数据进行分组。让我们尝试创建一个图，其中y轴显示月份，数据显示数据的分布。 
 
-1. 添加单元格以创建分组条形图：
+1. 添加单元格以创建分组柱状图：
 
     ```python
     new_pumpkins.groupby(['Month'])['Price'].mean().plot(kind='bar')
     plt.ylabel("Pumpkin Price")
     ```
 
-    ![显示价格与月份关系的条形图](../images/barchart.png)
+    ![显示价格与月份关系的柱状图](../images/barchart.png)
 
     这是一个更有用的数据可视化！似乎表明南瓜的最高价格出现在9月和10月。这符合你的期望吗？为什么？为什么不？
 
@@ -191,7 +191,7 @@
 
 探索Matplotlib提供的不同类型的可视化。哪种类型最适合回归问题？
 
-## [课后测](https://jolly-sea-0a877260f.azurestaticapps.net/quiz/12/)
+## [课后测](https://white-water-09ec41f0f.azurestaticapps.net/quiz/12/)
 
 ## 复习与自学
 
